@@ -1,0 +1,69 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 15%;
+     margin-top: 2%; 
+     max-height: 100%;
+     background-color: #EEEEFA;
+     color: black;
+    
+  }
+  
+  .card {
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+  border-radius: 15px;
+  background-color: rgba( 255, 255, 255, .15);
+  backdrop-filter: blur(5px);
+  }
+
+  .form{
+    padding: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    
+  }
+
+  .city {
+    font-size: 45px;
+    margin-bottom: 30px;
+  }
+  .container-vid,
+  .container-search {
+    margin: 0;
+padding: 0;
+background: url(images/water_pur.mp4) #fff;
+background-attachment: fixed;
+background-size: cover;
+}
+  
+#video-background {
+position: absolute;
+
+
+}
+#day,
+#temp,
+#bub
+
+{
+text-align: center;
+font-size: 22px;
+
+}
+
+#day{
+height: 45px;
+
+}
+.container-weather-cards, 
+.cards-container,
+.city {
+margin-left: 10%;
+}
+.closing {
+position:absolute;
+padding-top: 32px;
+margin-left: 35%;
+
+}
+ 
